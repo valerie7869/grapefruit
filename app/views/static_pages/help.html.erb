@@ -1,7 +1,16 @@
-<h1>Help</h1>
-<p>
-  Get help on the Ruby on Rails Tutorial at the
-  <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
-<br>
-  To get help on the grapefruit app, check back later.
-</p>
+<% provide(:title,'Help') %>
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Grapefruit Sample App | <%= yield(:title) %> </title> 
+  </head> 
+  <body>
+	<h1>Help</h1>
+	<p>
+	  Get help on the Ruby on Rails Tutorial at the
+	  <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
+	<br>
+	  To get help on the grapefruit app, check back later.
+	</p>
+  </body>
+</html>

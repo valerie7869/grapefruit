@@ -1,6 +1,15 @@
-<h1>Grapefruit App</h1>
-<p>
-  This is the home page for grapefruit. 
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<% provide(:title,'Home') %>
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Grapefruit Sample App | <%= yield(:title) %> </title> 
+  </head> 
+  <body> 
+    <h1>Home</h1> 
+    <p> 
+      This is the home page for the
+      <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> 
+      sample application called 'Grapefruit'.
+    </p> 
+  </body> 
+</html>

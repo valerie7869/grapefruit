@@ -1,4 +1,10 @@
 Grapefruit::Application.routes.draw do
+  resources :packages
+
+  resources :microposts
+
+  resources :users
+
   get "static_pages/home"
 
   get "static_pages/help"

@@ -8,10 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/valerie/rails_projects/grapefruit/Gemfile",
+			"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/about.html.erb",
 			"settings":
 			{
-				"buffer_size": 963,
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/help.html.erb",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static_pages_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1158,
 				"line_ending": "Unix"
 			}
 		}
@@ -31,7 +55,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 194.0
 	},
 	"distraction_free":
 	{
@@ -45,8 +69,20 @@
 	"file_history":
 	[
 		"/Users/valerie/rails_projects/grapefruit/spec/requests/static_pages_spec.rb",
-		"/Users/valerie/rails_projects/grapefruit/public/hello.html",
+		"/Users/valerie/rails_projects/grapefruit/app/controllers/static_pages_controller.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/views/static_pages/about.html.erb",
 		"/Users/valerie/rails_projects/grapefruit/Gemfile",
+		"/Users/valerie/rails_projects/grapefruit/script/rails",
+		"/Users/valerie/rails_projects/grapefruit/.rspec",
+		"/Users/valerie/rails_projects/grapefruit/app/models/license.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/models/package.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/models/micropost.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/models/user.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/models/my_license.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/models/my_package.rb",
+		"/Users/valerie/rails_projects/grapefruit/app/views/about.html.erb",
+		"/Users/valerie/rails_projects/grapefruit/config/routes.rb",
+		"/Users/valerie/rails_projects/grapefruit/public/hello.html",
 		"/Users/valerie/rails_projects/grapefruit/app/views/static_pages/help.html.erb",
 		"/Users/valerie/rails_projects/grapefruit/app/views/static_pages/home.html.erb",
 		"/Users/valerie/rails_projects/grapefruit/.bundle/config",
@@ -85,6 +121,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"--"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -95,33 +132,121 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/valerie/rails_projects/grapefruit/Gemfile",
+					"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/about.html.erb",
 					"settings":
 					{
-						"buffer_size": 963,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								962,
-								962
+								288,
+								288
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 384.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/valerie/rails_projects/grapefruit/app/views/static_pages/help.html.erb",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "static_pages_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -146,11 +271,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -160,6 +292,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 143.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -170,6 +306,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"abou",
+				"app/views/static_pages/about.html.erb"
+			]
 		],
 		"width": 0.0
 	},
@@ -181,10 +321,10 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_visible": false,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true
 }
